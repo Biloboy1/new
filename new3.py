@@ -84,6 +84,8 @@ def xoshnaw():
     	print(logo)
     	xoshnaw()
 xoshnaw()
+
+def main_system():
     
     try:
         token = open('token.txt', 'r').read()

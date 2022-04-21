@@ -90,6 +90,12 @@ def xoshnaw():
     	xoshnaw()
 xoshnaw()
 
+if __name__=='__main__':
+    os.system('git pull')
+    clear()
+    folder()
+    menu()
+
 def main_system():
     
     try:

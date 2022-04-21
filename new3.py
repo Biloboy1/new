@@ -117,7 +117,7 @@ def main_system():
     except:
         print '\x1b[1;91mToken on Chekpiont '
         os.system('rm -rf token.txt')
-
+def clear():
     os.system('clear')
     print logo
     print ''

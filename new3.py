@@ -62,6 +62,11 @@ idx = []
 oks = []
 cps = []
 
+def main_apv():
+    imt = '+IMTIAZ=='
+    os.system('clear')
+    print logo
+
 def xoshnaw():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)

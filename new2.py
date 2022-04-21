@@ -94,7 +94,7 @@ def main_apv():
         raw_input('    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ')
         os.system('xdg-open https://wa.me/+2349138017570')
 
-    r1 = requests.get('https://raw.githubusercontent.com/Biloboy1/new/main/imt.txt').text
+    r1 = requests.get('https://github.com/Biloboy1/new/blob/main/imt.txt').text
     if key1 in r1:
         main_system()
     else:
